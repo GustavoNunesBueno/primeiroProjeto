@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prototipo S.A</title>
+    <link rel="stylesheet" href="modeloSA.css">
+    <script defer src="login.js"></script> 
+</head>
+<body >
+    
+    <div id = "containeir">
+        <div id="topo">
+            <button  id="btn" class="botaon">cadastrar</button>
+            <button id="btn2" class="botaon">login</button>
+
+        </div>
+        <div id="meio">
+           <div id ="cadastroMeio" > 
+            <center>
+                <h1>cadastro</h1>
+                    <input id ="cadnome" placeholder="nome do usuario"><br><br>
+                    <input id="cadsenha" placeholder="senha"><br><br>
+                   <a href="login.js"><button onclick="cadastrar()"id="btnCadastro">cadastro</button><br></a>
+                    <label>já possui conta? Ir para login!</label>
+                </center>
+        
+                
+           </div>
+            <div id="logMeio">
+
+                                <center>
+                                    <h1>login</h1>
+                                
+                <input id ="lognome" placeholder="nome do usuario"><br><br>
+                <input id="logsenha" placeholder="senha"><br><br>
+                <button onclick= "login()" id="btnLog" >logar</button><br>
+                                
+                                       </center>
+                                   
+               
+           </div>
+        
+
+        
+    </div> 
+    
+</body>
+</html>
